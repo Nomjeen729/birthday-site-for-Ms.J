@@ -56,7 +56,7 @@ export default function ConfessionIntro({ onComplete }) {
 
             <div className="space-y-6">
               <h2 className="text-2xl md:text-4xl font-bold bg-gradient-to-r from-pink-300 to-purple-300 bg-clip-text text-transparent">
-                I’ve been hiding something sweet...
+                Чиний нууц сантагаас...
               </h2>
 
               <motion.p
@@ -64,8 +64,8 @@ export default function ConfessionIntro({ onComplete }) {
                 transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
                 className="text-base md:text-lg text-pink-200 leading-relaxed"
               >
-                There’s a little secret I’ve been saving for the right moment.
-                Want to know what it is? 💖
+                За ингээд 2025 ондоо зөндөө хичээсэн чамдаа санта эмээгээс нь бэлэг бэлдсэн байгаа.
+                Юу гэдгийг нь харахыг хүсэж байна уу? 💖
               </motion.p>
             </div>
 
