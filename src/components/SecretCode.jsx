@@ -7,7 +7,7 @@ import { Lock, Heart, Sparkles } from "lucide-react"
 export default function SecretCode({ onUnlock }) {
   const [code, setCode] = useState("")
   const [isWrong, setIsWrong] = useState(false)
-  const secretCode = "143"
+  const secretCode = "61231"
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -89,9 +89,9 @@ export default function SecretCode({ onUnlock }) {
                   transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
                   className="text-pink-200 text-lg"
                 >
-                  Enter the code to unlock my heart💕
+                  Enter the code to unlock your birthday gift💕
                 </motion.p>
-                <p className="text-white/50 text-sm"><span className="text-black/80">💡</span>Hint: Three numbers that mean "I Love You"</p>
+                <p className="text-white/50 text-sm"><span className="text-black/80">💡</span>P.S: Цаг нь болохоор нууц үгийг нь хэлнээ ккк</p>
               </div>
             </div>
 
@@ -117,7 +117,7 @@ export default function SecretCode({ onUnlock }) {
               >
                 <span className="relative z-10 flex items-center justify-center gap-2">
                   <Heart className="w-5 h-5 fill-current" />
-                  Unlock My Heart
+                  Unlock Your Gift
                   <Heart className="w-5 h-5 fill-current" />
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -130,7 +130,7 @@ export default function SecretCode({ onUnlock }) {
                 animate={{ opacity: 1, y: 0 }}
                 className="text-red-300 text-sm bg-red-500/10 rounded-full px-4 py-2 border border-red-400/20"
               >
-                💕Try again, my love! Think of our special number
+                💕Нууц үг буруу байна, дахин оролдоно уу.
               </motion.p>
             )}
           </div>
