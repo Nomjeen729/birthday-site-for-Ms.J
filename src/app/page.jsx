@@ -6,8 +6,6 @@ import Loader from "@/components/Loader"
 import SecretCode from "@/components/SecretCode"
 import HeartReveal from "@/components/HeartReveal"
 import ConfessionIntro from "@/components/ConfessionIntro"
-import SpecialMessage from "@/components/SpecialMessage"
-import PhotoGallery from "@/components/PhotoGallery"
 
 export default function ConfessionSite() {
   const [currentScreen, setCurrentScreen] = useState("loader")
@@ -58,7 +56,7 @@ export default function ConfessionSite() {
           delay: 1,
         }}
         className="fixed bottom-4 right-4 text-[13px] text-white/40 pointer-events-none z-50 font-light">
-        @anujbuilds
+        @MadebyNomjeen
       </motion.div>
     </div>
   )
