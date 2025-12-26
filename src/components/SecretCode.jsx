@@ -82,7 +82,7 @@ export default function SecretCode({ onUnlock }) {
 
               <div className="space-y-3">
                 <h2 className="text-3xl font-bold bg-gradient-to-r from-pink-300 to-purple-300 bg-clip-text text-transparent">
-                  Secret Gateway
+                  Зүрхний түгжээ
                 </h2>
                 <motion.p
                   animate={{ opacity: [0.7, 1, 0.7] }}
