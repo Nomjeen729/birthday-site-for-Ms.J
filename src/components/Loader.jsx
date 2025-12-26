@@ -80,7 +80,7 @@ export default function Loader({ onComplete }) {
         <div className="space-y-8">
           <div className="space-y-4">
             <h1 className="text-4xl py-1 font-bold bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-300 bg-clip-text text-transparent">
-              Creating Magic
+              Байжий
             </h1>
 
             <motion.p
@@ -88,7 +88,7 @@ export default function Loader({ onComplete }) {
               transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
               className="text-lg text-pink-200 tracking-wide"
             >
-              A beautiful surprise is loading ...<span className="text-pink-100">💫</span>
+              Сюрприз маань ачааллаж байна...<span className="text-pink-100">💫</span>
             </motion.p>
           </div>
 
