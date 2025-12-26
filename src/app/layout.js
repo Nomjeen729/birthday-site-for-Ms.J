@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Made with love",
+  title: "Happy Birthday Ms.J",
   description: "This website was made with love to express something truly special. Dive in and feel every moment made just for you 💖",
 };
 
