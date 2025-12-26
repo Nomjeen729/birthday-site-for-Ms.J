@@ -105,8 +105,8 @@ export default function SecretCode({ onUnlock }) {
                     ? "border-red-400/50 focus:ring-red-400/20 text-red-300"
                     : "border-white/20 focus:ring-pink-400/20 focus:border-pink-400/50 text-white"
                 }`}
-                placeholder="❤❤❤"
-                maxLength={3}
+                placeholder="❤❤❤❤❤"
+                maxLength={5}
               />
 
               <motion.button
